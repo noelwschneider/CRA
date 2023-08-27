@@ -4,6 +4,8 @@ const pool = require('../modules/pool')
 
 router.get('/', (req, res) => {
 
+    console.log('in example.router GET')
+    
     const queryText = `
         SELECT * FROM example
     `
